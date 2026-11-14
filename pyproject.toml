@@ -7,7 +7,9 @@ name = "forexbot"
 version = "0.1.0"
 description = "Dry-run-first conservative MetaTrader 5 forex bot"
 requires-python = ">=3.11"
-dependencies = ["MetaTrader5>=5.0.45", "python-dotenv>=1.0"]
+readme = "README.md"
+# The MetaTrader5 package only exists for Windows; elsewhere the pure logic and tests still install.
+dependencies = ["MetaTrader5>=5.0.45; sys_platform == 'win32'", "python-dotenv>=1.0"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
