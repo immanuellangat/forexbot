@@ -1,6 +1,6 @@
 # Forexbot
 
-[![Tests](https://github.com/immanuellangat/forexbot/actions/workflows/tests.yml/badge.svg)](https://github.com/immanuellangat/forexbot/actions/workflows/tests.yml)
+[![Tests](https://github.com/immanuellangat/forexbot/actions/workflows/tests.yml/badge.svg?branch=immanuellangat-automated-forex-bot)](https://github.com/immanuellangat/forexbot/actions/workflows/tests.yml)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)
 
 Conservative, rule-based forex trend follower for MetaTrader 5. **Dry-run mode is
